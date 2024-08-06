@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Introduction To React",
+      "body": "React is a popular JavaScript library developed by Facebook for building user interfaces, particularly single-page applications. It allows developers to create reusable UI components that manage their own state, leading to more efficient and maintainable code. By using a virtual DOM, React optimizes updates and rendering, making applications faster and more responsive. Its component-based architecture, combined with tools like JSX and hooks, provides a powerful and flexible way to build dynamic and interactive web applications.",
+      "author": "Ayesha",
+      "id": "1"
+    },
+    {
+      "title": "What are Components in React?",
+      "body": "React components are the building blocks of a React application. They encapsulate a part of the user interface, including the structure, style, and behavior. Components can be either class-based or functional, with the latter often using hooks to manage state and side effects. By breaking down the UI into small, reusable pieces, React components promote modularity and reusability, making the development process more efficient. They can be nested, managed, and composed to build complex interfaces, enabling developers to create dynamic and interactive web applications with ease.",
+      "author": "Ahmed",
+      "id": "2"
+    },
+    {
+      "title": "What are Hooks?",
+      "body": "React hooks are special functions that allow you to use state and other React features in functional components. Introduced in React 16.8, hooks like useState and useEffect simplify the management of component state and side effects without needing to write class components. Hooks enable more readable and maintainable code by keeping related logic together and avoiding the complexity of lifecycle methods. They also facilitate the reuse of stateful logic across different components, enhancing the modularity and scalability of React applications.",
+      "author": "Sarmad",
+      "id": "3"
+    },
+    {
+      "id": "d77e",
+      "title": "Understanding Custom Hooks in React",
+      "body": "In the world of React development, the concept of hooks revolutionized the way we handle state and side effects in functional components. While React provides built-in hooks like useState and useEffect, custom hooks offer a powerful way to encapsulate and reuse stateful logic across multiple components. This blog explores what custom hooks are, why they are beneficial, and how to create and use them effectively.\n\nWhat are Custom Hooks?\nCustom hooks are JavaScript functions whose names start with \"use\" and that may call other hooks. They allow you to extract component logic into reusable functions. This helps in creating clean and maintainable code by avoiding code duplication and making complex components easier to manage.\n\nBenefits of Custom Hooks\nReusability: Custom hooks enable you to reuse stateful logic without duplicating code across different components.\nSeparation of Concerns: By extracting logic into hooks, you can keep your component code focused on rendering and UI logic.\nClean Code: Custom hooks promote cleaner and more readable code by separating logic into distinct units.\nTesting: Hooks can be independently tested, ensuring that the logic they encapsulate works as expected.\nCreating a Custom Hook\nCreating a custom hook is straightforward. You simply write a function that utilizes built-in hooks and encapsulates some piece of reusable logic. The name of the function must start with \"use\" to follow the convention and enable React to identify it as a hook.",
+      "author": "Ahmed"
+    }
+  ]
+}
